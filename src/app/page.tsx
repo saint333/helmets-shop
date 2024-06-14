@@ -1,8 +1,12 @@
 import Highlights from "@/components/info/Info";
-import { CardProductBase, CardProductGrid } from "@/components/product/Product";
+import {
+  BlogList,
+  CardProductBase,
+  CardProductGrid,
+} from "@/components/product/Product";
 import { images } from "@/mocks/carrusel";
-import { ProductType, productGrid, products } from "@/mocks/products";
-import CardProduct, { CardGrid } from "@/ui/cardproduct/CardProduct";
+import { ProductType, blog, productGrid, products } from "@/mocks/products";
+import CardProduct, { BlogCard, CardGrid } from "@/ui/cardproduct/CardProduct";
 import Carousel from "@/ui/carrusel/Carrusel";
 
 export default function Home() {
@@ -45,6 +49,13 @@ export default function Home() {
             />
           ))}
         </CardProductGrid>
+      ))}
+      {blog.map((blog) => (
+        <BlogList key={blog.title} title={blog.title}>
+          {blog.product.map((product) => (
+            <BlogCard key={product.title} {...product} />
+          ))}
+        </BlogList>
       ))}
     </main>
   );

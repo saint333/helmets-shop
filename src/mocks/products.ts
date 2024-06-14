@@ -35,6 +35,20 @@ export type ProductGridType = {
   children?: React.ReactNode
 }
 
+export type CardBlog = {
+  title: string;
+  image: string;
+  link: string;
+  date: string;
+  description: string;
+}
+
+export type CardBlogType = {
+  title: string;
+  product: CardBlog[];
+  children?: React.ReactNode
+}
+
 export const products: ProductType[] = [
   {
     title: "WELDING HELMETS WITH A PAPR",
@@ -203,6 +217,35 @@ export const productGrid: ProductGridType[] = [
       },
       {
         image: "https://cdn.shopify.com/oxygen-v2/29651/20627/42665/606537/build/_assets/weldinghelmetsonline-speedglas-UYQ76BIG.avif",
+      }
+    ]
+  }
+]
+
+export const blog: CardBlogType[] = [
+  {
+    title: "OUR WELDING HELMET BLOG",
+    product: [
+      {
+        image: "https://cdn.shopify.com/oxygen-v2/29651/20627/42665/606537/build/_assets/blog1-V4RI6UVW.webp",
+        date: "May 27, 2020",
+        title: "3M Speedglas G5-01VC Welding Helmet Review",
+        description: "By now, the Speedglas G5-01VC welding helmet has firmly planted itself as the best flip up welding helmet with PAPR respiratory in the world. You’ve either seen one of these somewhere or know someone who has one… either that or you...",
+        link: "/products/3m-speedglas-heavy-duty-flip-up-welding-helmet-g5-01-with-adflo-papr"
+      },
+      {
+        image: "https://cdn.shopify.com/oxygen-v2/29651/20627/42665/606537/build/_assets/blog1-V4RI6UVW.webp",
+        date: "May 27, 2020",
+        title: "3M Speedglas G5-01VC Welding Helmet Review",
+        description: "By now, the Speedglas G5-01VC welding helmet has firmly planted itself as the best flip up welding helmet with PAPR respiratory in the world. You’ve either seen one of these somewhere or know someone who has one… either that or you...",
+        link: "/products/3m-speedglas-heavy-duty-flip-up-welding-helmet-g5-01-with-adflo-papr"
+      },
+      {
+        image: "https://cdn.shopify.com/oxygen-v2/29651/20627/42665/606537/build/_assets/blog3-LFBSJUIM.jpg",
+        date: "May 27, 2020",
+        title: "3M Speedglas G5-01VC Welding Helmet Review",
+        description: "By now, the Speedglas G5-01VC welding helmet has firmly planted itself as the best flip up welding helmet with PAPR respiratory in the world. You’ve either seen one of these somewhere or know someone who has one… either that or you...",
+        link: "/products/3m-speedglas-heavy-duty-flip-up-welding-helmet-g5-01-with-adflo-papr"
       }
     ]
   }

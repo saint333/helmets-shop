@@ -1,4 +1,4 @@
-import { Product, ProductGrid } from "@/mocks/products";
+import { CardBlog, Product, ProductGrid } from "@/mocks/products";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -26,7 +26,7 @@ export default function CardProduct(item: Product) {
         >
           {item.title}
         </h3>
-        <small className='text-gray-400'>{item.category}</small>
+        <small className='text-gray-500'>{item.category}</small>
         <p className='text-sm text-red-shop'>Part Number: {item.code}</p>
         <p className='text-lg font-semibold'>
           <span className='text-red-shop'>{item.price}</span> (Inc. GST)
@@ -57,6 +57,33 @@ export const CardGrid = (item: ProductGrid) => {
           i{item.text}
         </Link>
       )}
+    </div>
+  );
+};
+
+export const BlogCard = (item: CardBlog) => {
+  return (
+    <div className='group border border-gray-300 rounded-lg relative w-[300px] h-[535px] pb-3 text-center'>
+      <Image
+        src={item.image}
+        alt={item.title}
+        fill
+        priority
+        className='object-contain !static !w-full !h-auto rounded-lg m-auto rounded-b-none'
+      />
+      <div className="p-4 flex flex-col gap-3">
+        <span className='text-gray-500 text-base'>{item.date}</span>
+        <h3
+          className='text-lg font-semibold bg-opacity-10'
+          style={{ lineHeight: 1.3 }}
+        >
+          {item.title}
+        </h3>
+        <p className='text-base text-ellipsis text-pretty'>{item.description}</p>
+        <Link href={item.link} className='text-red-shop'>
+          Read now
+        </Link>
+      </div>
     </div>
   );
 };
