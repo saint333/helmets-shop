@@ -17,7 +17,7 @@ export default function GruopImagen({ list }: { list: string[] }) {
             src={item}
             alt={item}
             fill
-            className='object-contain !static !w-[100px] !h-auto lg:!w-[150px]  rounded-lg border border-gray-400'
+            className='object-contain !static !w-[60px] !h-auto lg:!w-[150px]  rounded-lg border border-gray-400'
           />
         ))}
       </div>

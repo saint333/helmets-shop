@@ -49,39 +49,55 @@ export const productDetail: Selfrom = {
     count: 8,
   },
   description1:
-    '<div class="container-delivery-product flex flex-nowrap flex-row items-start dark w-full"><div class="column --icon"><span class="svg-icon --content"><svg class="icon-delivery-package key-details__icon" aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none"><path d="M23.6498 42.7423C23.4202 42.8471 23.1714 42.9032 22.919 42.9073C22.6666 42.9114 22.4161 42.8634 22.1832 42.7662L2.044 34.3768C1.71005 34.2375 1.4248 34.0025 1.22416 33.7014C1.02352 33.4003 0.916474 33.0465 0.916504 32.6847V11.275C0.916331 10.9181 1.02032 10.569 1.21572 10.2703C1.41111 9.9717 1.68942 9.73659 2.0165 9.59384L21.2665 1.22467C21.4978 1.12372 21.7475 1.07162 21.9998 1.07162C22.2522 1.07162 22.5019 1.12372 22.7332 1.22467L41.9832 9.59384C42.3103 9.73659 42.5886 9.9717 42.784 10.2703C42.9794 10.569 43.0833 10.9181 43.0832 11.275V32.725C43.0834 33.0772 42.9822 33.422 42.7917 33.7182C42.6012 34.0143 42.3294 34.2494 42.0088 34.3952L23.6498 42.7423Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M22.9165 19.239V42.9275" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M22.9165 19.239L42.7513 10.2245" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M32.0337 5.269L11.9165 14.531V21.2392" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M22.9167 19.239L1.25586 10.2135" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></div><div class="column --information"><h3 class="title-delivery">FREE shipping on all your orders over $200!</h3><p class="description-title">Make a purchase of more than $200 and we will cover shipping anywhere in Australia!</p></div></div>',
+    `<div class="justify-between flex flex-nowrap flex-row items-start p-3 rounded-lg gap-2" style="background-color: #f5f3ed;">
+      <div class="column --icon">
+        <span class="svg-icon --content">
+          <svg class="icon-delivery-package key-details__icon" aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+            <path d="M23.6498 42.7423C23.4202 42.8471 23.1714 42.9032 22.919 42.9073C22.6666 42.9114 22.4161 42.8634 22.1832 42.7662L2.044 34.3768C1.71005 34.2375 1.4248 34.0025 1.22416 33.7014C1.02352 33.4003 0.916474 33.0465 0.916504 32.6847V11.275C0.916331 10.9181 1.02032 10.569 1.21572 10.2703C1.41111 9.9717 1.68942 9.73659 2.0165 9.59384L21.2665 1.22467C21.4978 1.12372 21.7475 1.07162 21.9998 1.07162C22.2522 1.07162 22.5019 1.12372 22.7332 1.22467L41.9832 9.59384C42.3103 9.73659 42.5886 9.9717 42.784 10.2703C42.9794 10.569 43.0833 10.9181 43.0832 11.275V32.725C43.0834 33.0772 42.9822 33.422 42.7917 33.7182C42.6012 34.0143 42.3294 34.2494 42.0088 34.3952L23.6498 42.7423Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M22.9165 19.239V42.9275" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M22.9165 19.239L42.7513 10.2245" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M32.0337 5.269L11.9165 14.531V21.2392" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M22.9167 19.239L1.25586 10.2135" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+        </span>
+      </div>
+      <div class="column --information">
+        <h3 class="text-base font-semibold">FREE shipping on all your orders over $200!</h3>
+        <p class="text-base">Make a purchase of more than $200 and we will cover shipping anywhere in Australia!</p>
+      </div>
+    </div>`,
   description2: `<div>
   <div class="container-products --extra">
                                     <div class="content-icons">
                                        <a href="/pages/welding-helmet-bulk-buys-contracts-and-tenders">
                                                    </a><table class="table-icons m-0 w-full">
-                                          <tbody class="body-content who-icons">
+                                          <tbody class="body-content who-icons mt-3">
                                              <tr class="contet-all who-info-single-products">
-                                                <td class="icon-who 03 text-center p-6" rel="nofollow">
-                                                      <img src="https://cdn.shopify.com/s/files/1/3009/5686/files/icon-call-who.png" class="icon-img-sp who-product03 w-48 m-0 block " alt="Quotes Bulk Prices">
-                                                <a class="a-title-icon-producto link" href="/pages/welding-helmet-bulk-buys-contracts-and-tenders"><p class="title-icon-producto --p3">Quotes/Bulk Prices Available</p></a><a class="asubtitle-icon-producto link" href="/pages/welding-helmet-bulk-buys-contracts-and-tenders"><p class="subtitle-icon-producto --p3">(Orders of 3 helmets or more)</p></a></td>
+                                                <td class="icon-who 03 text-center p-6" rel="nofollow" style="padding: 1.5rem">
+                                                      <img style="width: 3rem" src="https://cdn.shopify.com/s/files/1/3009/5686/files/icon-call-who.png" class="icon-img-sp who-product03 w-12 m-auto block " alt="Quotes Bulk Prices">
+                                                <a class="a-title-icon-producto link" href="/pages/welding-helmet-bulk-buys-contracts-and-tenders"><p class="title-icon-producto --p3 text-sm font-semibold">Quotes/Bulk Prices Available</p></a><a class="asubtitle-icon-producto link" href="/pages/welding-helmet-bulk-buys-contracts-and-tenders"><p class="subtitle-icon-producto --p3 text-xs">(Orders of 3 helmets or more)</p></a></td>
                                                 <td class="line-separador-content">
                                                    <div class="line-separador"> </div>
                                                 </td>
-                                                <td class="icon-who 02 text-center p-6">
-                                                   <img src="https://cdn.shopify.com/s/files/1/3009/5686/files/quote-who.png" class="icon-img-sp who-product02 w-48 m-0 block " alt="Prices Already Include GST">
-                                                   <p class="title-icon-producto --p2">Prices Already Include GST</p>
-                                                   <p class="subtitle-icon-producto --p2">(No hidden surprises at checkout)</p>
+                                                <td class="icon-who 02 text-center p-6" style="padding: 1.5rem">
+                                                   <img style="width: 3rem" src="https://cdn.shopify.com/s/files/1/3009/5686/files/quote-who.png" class="icon-img-sp who-product02 w-12 block m-auto" alt="Prices Already Include GST">
+                                                   <p class="title-icon-producto --p2 text-sm font-semibold">Prices Already Include GST</p>
+                                                   <p class="subtitle-icon-producto --p2 text-xs">(No hidden surprises at checkout)</p>
                                                 </td>
                                                 <td class="line-separador-content">
                                                    <div class="line-separador"> </div>
                                                 </td>
-                                                <td class="icon-who 01 text-center p-6">
-                                                   <img src="https://cdn.shopify.com/s/files/1/3009/5686/files/delivery-free-who.png" class="icon-img-sp who-product01 w-48 m-0 block " alt="Fast, Safe, Secure Delivery - Welding Helmets">
-                                                   <p class="title-icon-producto --p1">Fast, Safe, Secure Delivery</p>
-                                                   <p class="subtitle-icon-producto --p1">(Across Australia)</p>
+                                                <td class="icon-who 01 text-center p-6" style="padding: 1.5rem">
+                                                   <img style="width: 3rem" src="https://cdn.shopify.com/s/files/1/3009/5686/files/delivery-free-who.png" class="icon-img-sp who-product01 m-auto block " alt="Fast, Safe, Secure Delivery - Welding Helmets">
+                                                   <p class="title-icon-producto --p1 text-sm font-semibold">Fast, Safe, Secure Delivery</p>
+                                                   <p class="subtitle-icon-producto --p1 text-xs">(Across Australia)</p>
                                                 </td>
                                              </tr>
                                           </tbody>
                                        </table>
                                     </div>
                                  </div>
-                                 <div class="product-description grid gap-4 py-4">
+                                 <div class="product-description grid gap-4 pb-4">
                                     <p class="product-description w-full leading-relaxed">
                                     </p><p>The Speedglas G5-01 VC Heavy Duty Flip Up Welding Helmet with Adflo PAPR is the highly anticipated and newest welding helmet with PAPR from the team that invented the auto darkening welding helmet.</p>
                                     <p>This helmet is designed for heavy welders and has a range of new features not previously seen - including the ability to choose one of three colour tones for dark state shades, ability to direct airflow to different areas of the helmet, slimmer design easier for confined spaces, additional comfort features in the harness and an optional light for the front of the helmet.</p>
