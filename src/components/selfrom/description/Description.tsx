@@ -1,4 +1,5 @@
 import { Selfrom } from '@/mocks/selfrom'
+import Raiting from '@/ui/raiting/Raiting'
 import Image from 'next/image'
 import React from 'react'
 
@@ -18,6 +19,7 @@ export default function Description({product}: {product: Selfrom}) {
         </div>
         <Image src="/promo.svg" alt="promo" fill priority className='object-contain !static !h-auto !w-full'/>
       </div>
+      <Raiting item={product.raiting}/>
       <div dangerouslySetInnerHTML={{__html: product.description1}}></div>
       <div className='grid grid-cols-2 gap-2'>
         <div className='grid grid-cols-3'>

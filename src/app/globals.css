@@ -21,6 +21,55 @@
   animation-play-state: paused;
 }
 
+.circle-info-producto {
+  width: 25px;
+  height: 25px;
+}
+
+.product_feature th {
+  font-weight: 700;
+  border: 1px solid #cccccc;
+  color: #de0101;
+  text-align: center;
+  padding: 20px;
+  font-size: 22px;
+  cursor: pointer;
+  border: none;
+}
+
+b.title-grid-products {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  align-items: center;
+}
+
+.product_feature tr {
+  transition: background-color .3s ease-in-out 0s;
+  border-bottom: 1px solid #cccccc;
+  background-color: #eeeeee85;
+  color: #4d4d4d;
+}
+
+.product_feature td {
+  border: 2px solid rgb(255, 255, 255);
+  padding: 15px;
+}
+
+.product_feature th, td {
+  border: none;
+}
+
+b.grid-text-display {
+  display: flex;
+  gap: 6px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.comparison-grid-helmets{
+  margin: auto;
+}
+
 @media (min-width: 640px) {
   .scroll-container{
     scrollbar-width: none;
