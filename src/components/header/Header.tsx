@@ -1,10 +1,6 @@
 import Search from "@/ui/search/Search";
 import Image from "next/image";
-import {
-  IoCart,
-  IoChatbubblesOutline,
-  IoMenu,
-} from "react-icons/io5";
+import { IoCart, IoChatbubblesOutline, IoMenu } from "react-icons/io5";
 import Navbar from "../navbar/Navbar";
 
 export default function Header() {

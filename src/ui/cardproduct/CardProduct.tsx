@@ -71,7 +71,7 @@ export const BlogCard = (item: CardBlog) => {
         priority
         className='object-contain !static !w-full !h-auto rounded-lg m-auto rounded-b-none'
       />
-      <div className="p-4 flex flex-col gap-3">
+      <div className='p-4 flex flex-col gap-3'>
         <span className='text-gray-500 text-base'>{item.date}</span>
         <h3
           className='text-lg font-semibold bg-opacity-10'
@@ -79,7 +79,9 @@ export const BlogCard = (item: CardBlog) => {
         >
           {item.title}
         </h3>
-        <p className='text-base text-ellipsis text-pretty'>{item.description}</p>
+        <p className='text-base text-ellipsis text-pretty'>
+          {item.description}
+        </p>
         <Link href={item.link} className='text-red-shop'>
           Read now
         </Link>

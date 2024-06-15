@@ -8,13 +8,13 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Helmet Shop",
   description: "Tienda de helmet para la venta de cascos",
-  icons:{
+  icons: {
     icon: {
       url: "/favicon.png",
       type: "image/png",
-      rel: "icon"
-    }
-  }
+      rel: "icon",
+    },
+  },
 };
 
 export default function RootLayout({
@@ -26,7 +26,8 @@ export default function RootLayout({
     <html lang='en'>
       <body className={inter.className}>
         <Header />
-        {children}</body>
+        {children}
+      </body>
     </html>
   );
 }

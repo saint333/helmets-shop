@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
 import { type Image as Imagetype } from "@/mocks/carrusel";
 import Image from "next/image";
-import  { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 const Carousel = ({ images }: { images: Imagetype[] }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -32,24 +32,21 @@ const Carousel = ({ images }: { images: Imagetype[] }) => {
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
         >
           {images.map((image, index) => (
-            <div
-              key={index}
-              className='w-full flex-shrink-0'
-            >
-            <Image
-              src={image.desktop}
-              alt={`Slide ${index + 1}`}
-              fill
-              priority
-              className='!w-full !h-full !static object-contain hidden md:block'
-            />
-            <Image
-              src={image.mobile}
-              alt={`Slide ${index + 1}`}
-              fill
-              priority
-              className='!w-full !h-full !static object-contain md:hidden'
-            />
+            <div key={index} className='w-full flex-shrink-0'>
+              <Image
+                src={image.desktop}
+                alt={`Slide ${index + 1}`}
+                fill
+                priority
+                className='!w-full !h-full !static object-contain hidden md:block'
+              />
+              <Image
+                src={image.mobile}
+                alt={`Slide ${index + 1}`}
+                fill
+                priority
+                className='!w-full !h-full !static object-contain md:hidden'
+              />
             </div>
           ))}
         </div>

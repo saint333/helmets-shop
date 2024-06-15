@@ -67,9 +67,7 @@ export const BlogList = (item: {
       <h2 className='text-center text-2xl md:text-3xl font-semibold mb-5'>
         {item.title}
       </h2>
-      <div className='flex gap-3 justify-center flex-wrap'>
-        {item.children}
-      </div>
+      <div className='flex gap-3 justify-center flex-wrap'>{item.children}</div>
     </div>
   );
 };

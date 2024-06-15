@@ -1,12 +1,10 @@
-
-
 export type raiting = {
   stars: number;
   check: number;
   count?: number;
   text?: string;
   size?: "small" | "large";
-}
+};
 
 export type comments = {
   image: string;
@@ -14,7 +12,7 @@ export type comments = {
   date: string;
   comment: string;
   rating: raiting;
-}
+};
 export type Selfrom = {
   title: string;
   images: string[];
@@ -23,7 +21,7 @@ export type Selfrom = {
   price: string;
   oldPrice: string;
   save: string;
-  raiting: raiting
+  raiting: raiting;
   description1: string;
   description2: string;
   description3: string;
@@ -48,8 +46,7 @@ export const productDetail: Selfrom = {
     check: 5,
     count: 8,
   },
-  description1:
-    `<div class="justify-between flex flex-nowrap flex-row items-start p-3 rounded-lg gap-2" style="background-color: #f5f3ed;">
+  description1: `<div class="justify-between flex flex-nowrap flex-row items-start p-3 rounded-lg gap-2" style="background-color: #f5f3ed;">
       <div class="column --icon">
         <span class="svg-icon --content">
           <svg class="icon-delivery-package key-details__icon" aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
@@ -341,10 +338,10 @@ export const productDetail: Selfrom = {
       date: "25/5/2023",
       comment:
         "G1-05vc 3M speedglas adflow welding helmet has to be one of the best purchases I've made in my career as a boilermaker absolutely love it wish I had done it years ago.",
-        rating: {
-          check: 5,
-          stars: 5,
-        },
+      rating: {
+        check: 5,
+        stars: 5,
+      },
     },
     {
       image:
@@ -353,10 +350,10 @@ export const productDetail: Selfrom = {
       date: "25/5/2023",
       comment:
         "G1-05vc 3M speedglas adflow welding helmet has to be one of the best purchases I've made in my career as a boilermaker absolutely love it wish I had done it years ago.",
-        rating: {
-          check: 5,
-          stars: 5,
-        },
+      rating: {
+        check: 5,
+        stars: 5,
+      },
     },
     {
       image:
@@ -365,10 +362,10 @@ export const productDetail: Selfrom = {
       date: "25/5/2023",
       comment:
         "G1-05vc 3M speedglas adflow welding helmet has to be one of the best purchases I've made in my career as a boilermaker absolutely love it wish I had done it years ago.",
-        rating: {
-          check: 5,
-          stars: 5,
-        },
+      rating: {
+        check: 5,
+        stars: 5,
+      },
     },
     {
       image:
@@ -377,10 +374,10 @@ export const productDetail: Selfrom = {
       date: "25/5/2023",
       comment:
         "G1-05vc 3M speedglas adflow welding helmet has to be one of the best purchases I've made in my career as a boilermaker absolutely love it wish I had done it years ago.",
-        rating: {
-          check: 5,
-          stars: 5,
-        },
+      rating: {
+        check: 5,
+        stars: 5,
+      },
     },
     {
       image:
@@ -389,10 +386,10 @@ export const productDetail: Selfrom = {
       date: "25/5/2023",
       comment:
         "G1-05vc 3M speedglas adflow welding helmet has to be one of the best purchases I've made in my career as a boilermaker absolutely love it wish I had done it years ago.",
-        rating: {
-          check: 5,
-          stars: 5,
-        },
+      rating: {
+        check: 5,
+        stars: 5,
+      },
     },
     {
       image:
@@ -401,10 +398,10 @@ export const productDetail: Selfrom = {
       date: "25/5/2023",
       comment:
         "G1-05vc 3M speedglas adflow welding helmet has to be one of the best purchases I've made in my career as a boilermaker absolutely love it wish I had done it years ago.",
-        rating: {
-          check: 5,
-          stars: 5,
-        },
+      rating: {
+        check: 5,
+        stars: 5,
+      },
     },
     {
       image:
@@ -413,10 +410,10 @@ export const productDetail: Selfrom = {
       date: "25/5/2023",
       comment:
         "G1-05vc 3M speedglas adflow welding helmet has to be one of the best purchases I've made in my career as a boilermaker absolutely love it wish I had done it years ago.",
-        rating: {
-          check: 5,
-          stars: 5,
-        },
+      rating: {
+        check: 5,
+        stars: 5,
+      },
     },
   ],
 };

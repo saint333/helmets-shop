@@ -7,10 +7,10 @@
     text-wrap: balance;
   }
 }
-.bg-red-shop{
+.bg-red-shop {
   background-color: #d91023;
 }
-.text-red-shop{
+.text-red-shop {
   color: #d91023;
 }
 .scroll-content {
@@ -45,7 +45,7 @@ b.title-grid-products {
 }
 
 .product_feature tr {
-  transition: background-color .3s ease-in-out 0s;
+  transition: background-color 0.3s ease-in-out 0s;
   border-bottom: 1px solid #cccccc;
   background-color: #eeeeee85;
   color: #4d4d4d;
@@ -56,7 +56,8 @@ b.title-grid-products {
   padding: 15px;
 }
 
-.product_feature th, td {
+.product_feature th,
+td {
   border: none;
 }
 
@@ -66,12 +67,12 @@ b.grid-text-display {
   align-items: flex-start;
   justify-content: flex-start;
 }
-.comparison-grid-helmets{
+.comparison-grid-helmets {
   margin: auto;
 }
 
 @media (min-width: 640px) {
-  .scroll-container{
+  .scroll-container {
     scrollbar-width: none;
   }
 }
