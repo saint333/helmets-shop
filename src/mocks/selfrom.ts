@@ -30,7 +30,7 @@ export const productDetail: Selfrom = {
         </span>
       </div>
       <div class="column --information">
-        <h3 class="text-base font-semibold">FREE shipping on all your orders over $200!</h3>
+        <p class="text-base font-semibold">FREE shipping on all your orders over $200!</p>
         <p class="text-base">Make a purchase of more than $200 and we will cover shipping anywhere in Australia!</p>
       </div>
     </div>`,
@@ -70,12 +70,12 @@ export const productDetail: Selfrom = {
                                     <p>The G501 also comes with a range of new spares making it a very versatile helmet and gives the welder the ability to either reduce the weight/size of the helmet, or increase their protection by adding extra head protection.</p>
                                     <p>This is the standard Speedglas G501 VC without the task light. If you're looking for the Speedglas G501VC with the task light installed, <a href="#" aria-label="Read more about Seminole tax hike">you can find it here</a>.</p>
                                     <a href="#" aria-label="Read more about Seminole tax hike"><img style="width: 100%; border-radius: 10px; margin-top: 2px !important; margin-bottom: 2px !important;" data-mce-fragment="1" src="https://cdn.shopify.com/s/files/1/3009/5686/files/versus_opti.svg" data-mce-src="https://cdn.shopify.com/s/files/1/3009/5686/files/versus_opti.svg" alt="Welding Helmets Online favourite features"></a>
-                                    <p><strong><span style="color: #ff2a00;">Welding Helmets Online favourite features</span></strong></p>
+                                    <p><strong><span style="color: #991500;">Welding Helmets Online favourite features</span></strong></p>
                                     <p>- The ability to easily remove the lens for when you're grinding (making it lighter).</p>
                                     <p>- The ability to choose where you want the air directed in the helmet (if your eyes dry out when using a PAPR usually, this is an amazing feature).</p>
                                     <p>- Slightly narrower helmet design than the 9100XXi FX Air, which is better for confined space work.</p>
                                     <p>- The option of including a task light is a popular feature and we can install the task light meaning you don't have to.</p>
-                                    <p>Want to know more?? <a href="https://weldinghelmetsonline.com.au/blogs/news/3m-speedglas-g5-01-welding-helmet-with-adflo-papr-review"><span style="text-decoration: underline;"><strong><span style="color: #ff2a00; text-decoration: underline;">Check out our review of the Speedglas G5-01 Welding Helmet here!</span></strong></span></a></p>
+                                    <p>Want to know more?? <a href="https://weldinghelmetsonline.com.au/blogs/news/3m-speedglas-g5-01-welding-helmet-with-adflo-papr-review"><span style="text-decoration: underline;"><strong><span style="color: #991500; text-decoration: underline;">Check out our review of the Speedglas G5-01 Welding Helmet here!</span></strong></span></a></p>
                                  </div>
   </div>`,
   description3: `

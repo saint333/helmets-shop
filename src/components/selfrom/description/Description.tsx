@@ -10,7 +10,7 @@ export default function Description({ product }: { product: Selfrom }) {
       <p className='text-gray-500 text-base'>{product.category}</p>
       <div className='flex justify-between items-center'>
         <p className='text-base font-semibold'>Part Number: {product.id}</p>
-        <p className='py-2 px-3 border border-[#419839] rounded-lg text-[#419839] text-nowrap font-semibold'>
+        <p className='py-2 px-3 border border-[#2A5F26] rounded-lg text-[#2A5F26] text-nowrap font-semibold'>
           {product.stock} Remaining in Stock
         </p>
       </div>
