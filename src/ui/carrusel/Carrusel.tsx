@@ -37,7 +37,8 @@ const Carousel = ({ images }: { images: ImageCarruselType[] }) => {
                 alt={`Slide ${index + 1}`}
                 fill
                 sizes="(100vw, 100vh)"
-                priority
+                priority={index === 0}
+                {...(index !== 0 ? { loading: "lazy" } : {})}
                 className='!w-full !h-full !static object-contain hidden md:block'
               />
               <Image
@@ -45,7 +46,8 @@ const Carousel = ({ images }: { images: ImageCarruselType[] }) => {
                 alt={`Slide ${index + 1}`}
                 fill
                 sizes="(100vw, 100vh)"
-                priority
+                priority={index === 0}
+                {...(index !== 0 ? { loading: "lazy" } : {})}
                 className='!w-full !h-full !static object-contain md:hidden'
               />
             </div>

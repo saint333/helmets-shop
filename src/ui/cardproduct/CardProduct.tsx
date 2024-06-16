@@ -15,7 +15,7 @@ export default function CardProduct(item: Product) {
           alt={item.title}
           fill
           sizes="(100vw, 100vh)"
-          priority
+          loading="lazy"
           className='object-cover !static !w-[250px] !h-[250px] rounded-lg m-auto'
         />
       </Link>
@@ -49,7 +49,7 @@ export const CardGrid = (item: ProductGrid) => {
         src={item.image}
         fill
         sizes="(100vw, 100vh)"
-        priority
+        loading="lazy"
         alt={item.image}
         className='object-cover !static !w-full !h-full rounded-lg m-auto'
       />
@@ -70,7 +70,7 @@ export const BlogCard = (item: CardBlog) => {
         alt={item.title}
         fill
         sizes="(100vw, 100vh)"
-        priority
+        loading="lazy"
         className='object-contain !static !w-full !h-auto rounded-lg m-auto rounded-b-none'
       />
       <div className='p-4 flex flex-col gap-3'>
