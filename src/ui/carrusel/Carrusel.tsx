@@ -62,12 +62,13 @@ const Carousel = ({ images }: { images: ImageCarruselType[] }) => {
       >
         &#10095;
       </button>
-      <div className='absolute bottom-1 left-1/2 transform -translate-x-1/2 flex space-x-2'>
+      <div className='absolute bottom-1 left-1/2 transform -translate-x-1/2 flex space-x-2 gap-1'>
         {images.map((_, index) => (
           <button
             key={index}
             onClick={() => setCurrentIndex(index)}
-            className={`h-3 w-3 rounded-full ${
+            title={`Slide ${index + 1}`}
+            className={`h-4 w-4 rounded-full ${
               currentIndex === index ? "bg-gray-300" : "bg-gray-500"
             }`}
           ></button>
