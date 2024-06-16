@@ -13,6 +13,8 @@ export default function Raiting({ item }: { item: raiting }) {
               alt={"start" + index}
               width={20}
               height={20}
+              sizes="(100vw, 100vh)"
+              loading="lazy"
             />
           ) : (
             <Image
@@ -21,6 +23,8 @@ export default function Raiting({ item }: { item: raiting }) {
               alt={"start" + index}
               width={30}
               height={30}
+              sizes="(100vw, 100vh)"
+              loading="lazy"
             />
           );
         })}

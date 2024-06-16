@@ -14,9 +14,9 @@ export default function CommentItem(item: comments) {
         className='object-contain !static !w-full !h-[200px] rounded-lg m-auto rounded-b-none'
       />
       <div className='p-4 flex flex-col gap-2'>
-        <h4 className='flex gap-2 font-semibold'>
+        <h4 className='flex gap-2 font-semibold relative'>
           {item.title}{" "}
-          <Image src='/check.svg' alt='check' width={20} height={20} />
+          <Image src='/check.svg' alt='check' width={20} height={20} sizes="(100vw, 100vh)" loading="lazy"/>
         </h4>
         <p className='text-gray-500 text-sm'>{item.date}</p>
         <Raiting item={{ ...item.rating, size: "small" }} />

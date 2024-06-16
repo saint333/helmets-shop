@@ -36,9 +36,7 @@ export const productDetail: Selfrom = {
     </div>`,
   description2: `<div>
   <div class="container-products --extra">
-                                    <div class="content-icons">
-                                       <a href="/pages/welding-helmet-bulk-buys-contracts-and-tenders">
-                                                   </a><table class="table-icons m-0 w-full">
+                                    <div class="content-icons"><table class="table-icons m-0 w-full">
                                           <tbody class="body-content who-icons mt-3">
                                              <tr class="contet-all who-info-single-products">
                                                 <td class="icon-who 03 text-center p-6" rel="nofollow" style="padding: 1.5rem">
@@ -70,8 +68,8 @@ export const productDetail: Selfrom = {
                                     </p><p>The Speedglas G5-01 VC Heavy Duty Flip Up Welding Helmet with Adflo PAPR is the highly anticipated and newest welding helmet with PAPR from the team that invented the auto darkening welding helmet.</p>
                                     <p>This helmet is designed for heavy welders and has a range of new features not previously seen - including the ability to choose one of three colour tones for dark state shades, ability to direct airflow to different areas of the helmet, slimmer design easier for confined spaces, additional comfort features in the harness and an optional light for the front of the helmet.</p>
                                     <p>The G501 also comes with a range of new spares making it a very versatile helmet and gives the welder the ability to either reduce the weight/size of the helmet, or increase their protection by adding extra head protection.</p>
-                                    <p>This is the standard Speedglas G501 VC without the task light. If you're looking for the Speedglas G501VC with the task light installed, <a href="#">you can find it here</a>.</p>
-                                    <a href=""><img style="width: 100%; border-radius: 10px; margin-top: 2px !important; margin-bottom: 2px !important;" data-mce-fragment="1" src="https://cdn.shopify.com/s/files/1/3009/5686/files/versus_opti.svg" data-mce-src="https://cdn.shopify.com/s/files/1/3009/5686/files/versus_opti.svg"></a><img>
+                                    <p>This is the standard Speedglas G501 VC without the task light. If you're looking for the Speedglas G501VC with the task light installed, <a href="#" aria-label="Read more about Seminole tax hike">you can find it here</a>.</p>
+                                    <a href="#" aria-label="Read more about Seminole tax hike"><img style="width: 100%; border-radius: 10px; margin-top: 2px !important; margin-bottom: 2px !important;" data-mce-fragment="1" src="https://cdn.shopify.com/s/files/1/3009/5686/files/versus_opti.svg" data-mce-src="https://cdn.shopify.com/s/files/1/3009/5686/files/versus_opti.svg" alt="Welding Helmets Online favourite features"></a>
                                     <p><strong><span style="color: #ff2a00;">Welding Helmets Online favourite features</span></strong></p>
                                     <p>- The ability to easily remove the lens for when you're grinding (making it lighter).</p>
                                     <p>- The ability to choose where you want the air directed in the helmet (if your eyes dry out when using a PAPR usually, this is an amazing feature).</p>

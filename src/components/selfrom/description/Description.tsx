@@ -10,11 +10,11 @@ export default function Description({ product }: { product: Selfrom }) {
       <p className='text-gray-500 text-base'>{product.category}</p>
       <div className='flex justify-between items-center'>
         <p className='text-base font-semibold'>Part Number: {product.id}</p>
-        <p className='py-2 px-3 border border-[#419839] rounded-lg text-[#419839] text-nowrap'>
+        <p className='py-2 px-3 border border-[#419839] rounded-lg text-[#419839] text-nowrap font-semibold'>
           {product.stock} Remaining in Stock
         </p>
       </div>
-      <div className='grid grid-cols-1 xl:grid-cols-2 gap-3'>
+      <div className='grid grid-cols-1 xl:grid-cols-2 gap-3 relative'>
         <div className='flex flex-col gap-3'>
           <p className='text-4xl font-semibold text-[#419839]'>
             {product.price}{" "}
@@ -31,7 +31,8 @@ export default function Description({ product }: { product: Selfrom }) {
           src='/promo.svg'
           alt='promo'
           fill
-          priority
+          sizes="(100vw, 100vh)"
+          loading="lazy"
           className='object-contain !static !h-auto !w-full'
         />
       </div>
@@ -45,6 +46,7 @@ export default function Description({ product }: { product: Selfrom }) {
           <input
             type='text'
             inputMode='numeric'
+            aria-label="Quantity"
             defaultValue={1}
             className='py-2 px-4 text-center border border-gray-400 focus:outline-none'
           />
