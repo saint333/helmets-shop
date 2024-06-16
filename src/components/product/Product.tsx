@@ -21,7 +21,7 @@ export const CardProductBase = ({
                 alt={title}
                 fill
                 sizes="(100vw, 100vh)"
-                priority
+                loading="lazy"
                 className='object-contain !static !w-[280px] !h-[535px] rounded-lg'
               />
               {children}
@@ -35,7 +35,7 @@ export const CardProductBase = ({
                 alt={title}
                 fill
                 sizes="(100vw, 100vh)"
-                priority
+                loading="lazy"
                 className='object-contain !static !w-[280px] !h-[535px] rounded-lg'
               />
             </>
