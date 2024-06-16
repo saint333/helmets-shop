@@ -35,13 +35,14 @@ const Highlights = () => {
         {highlightsData.map((item, index) => (
           <div
             key={index}
-            className='flex gap-4 items-center flex-col md:flex-row'
+            className='flex gap-4 items-center flex-col md:flex-row relative'
           >
             <Image
               className='object-contain !static !h-[50px] !w-auto'
               src={item.imgSrc}
               alt={item.title}
               fill
+              sizes="(100vw, 100vh)"
               priority
             />
             <div className='text-white text-xs text-center md:text-sm'>

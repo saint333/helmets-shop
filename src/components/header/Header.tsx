@@ -6,12 +6,13 @@ import Navbar from "../navbar/Navbar";
 export default function Header() {
   return (
     <header className='pt-4 px-4 pb-2 md:pt-6 md:px-12 flex flex-col gap-4'>
-      <section className='flex gap-4 justify-between items-center static md:gap-[7%] flex-wrap'>
+      <section className='flex gap-4 justify-between items-center md:gap-[7%] flex-wrap relative'>
         <IoMenu size={"2rem"} className='cursor-pointer lg:hidden' />
         <Image
           src='https://cdn.shopify.com/oxygen-v2/29651/20627/42665/606537/build/_assets/logo_weldinghelmetsonline-C2VEEW2E.webp'
           alt='logo'
           fill
+          sizes="(100vw, 100vh)"
           className='cursor-pointer object-contain !static !h-10 !w-auto md:!h-16'
           priority
         />

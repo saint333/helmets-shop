@@ -31,11 +31,12 @@ const Carousel = ({ images }: { images: ImageCarruselType[] }) => {
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
         >
           {images.map((image, index) => (
-            <div key={index} className='w-full flex-shrink-0'>
+            <div key={index} className='w-full flex-shrink-0 relative'>
               <Image
                 src={image.desktop}
                 alt={`Slide ${index + 1}`}
                 fill
+                sizes="(100vw, 100vh)"
                 priority
                 className='!w-full !h-full !static object-contain hidden md:block'
               />
@@ -43,6 +44,7 @@ const Carousel = ({ images }: { images: ImageCarruselType[] }) => {
                 src={image.mobile}
                 alt={`Slide ${index + 1}`}
                 fill
+                sizes="(100vw, 100vh)"
                 priority
                 className='!w-full !h-full !static object-contain md:hidden'
               />

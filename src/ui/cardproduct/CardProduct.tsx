@@ -6,14 +6,15 @@ import { FiShoppingCart } from "react-icons/fi";
 export default function CardProduct(item: Product) {
   return (
     <div className='group border border-gray-300 rounded-lg relative w-[280px] h-[535px] pb-3'>
-      <span className='bg-red-shop p-2 rounded-lg text-white text-sm absolute top-2 right-2'>
+      <span className='bg-red-shop p-2 rounded-lg text-white text-sm absolute top-2 right-2 z-[1]'>
         Save {item.save}
       </span>
-      <Link href={item.link}>
+      <Link href={item.link} className="relative">
         <Image
           src={item.image}
           alt={item.title}
           fill
+          sizes="(100vw, 100vh)"
           priority
           className='object-cover !static !w-[250px] !h-[250px] rounded-lg m-auto'
         />
@@ -43,10 +44,11 @@ export default function CardProduct(item: Product) {
 
 export const CardGrid = (item: ProductGrid) => {
   return (
-    <div className='flex flex-col gap-3'>
+    <div className='flex flex-col gap-3 relative'>
       <Image
         src={item.image}
         fill
+        sizes="(100vw, 100vh)"
         priority
         alt={item.image}
         className='object-cover !static !w-full !h-full rounded-lg m-auto'
@@ -67,6 +69,7 @@ export const BlogCard = (item: CardBlog) => {
         src={item.image}
         alt={item.title}
         fill
+        sizes="(100vw, 100vh)"
         priority
         className='object-contain !static !w-full !h-auto rounded-lg m-auto rounded-b-none'
       />

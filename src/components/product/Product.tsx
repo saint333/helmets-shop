@@ -13,13 +13,14 @@ export const CardProductBase = ({
         {title}
       </h2>
       <div className='overflow-x-scroll scroll-container'>
-        <div className='grid grid-cols-5 gap-3 justify-center w-max scroll-content m-auto'>
+        <div className='grid grid-cols-5 gap-3 justify-center w-max scroll-content m-auto relative'>
           {postion === "left" && (
             <>
               <Image
                 src={image}
                 alt={title}
                 fill
+                sizes="(100vw, 100vh)"
                 priority
                 className='object-contain !static !w-[280px] !h-[535px] rounded-lg'
               />
@@ -33,6 +34,7 @@ export const CardProductBase = ({
                 src={image}
                 alt={title}
                 fill
+                sizes="(100vw, 100vh)"
                 priority
                 className='object-contain !static !w-[280px] !h-[535px] rounded-lg'
               />
