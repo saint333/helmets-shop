@@ -5,7 +5,7 @@ import {
   CardProductGrid,
 } from "@/components/product/Product";
 import { images } from "@/mocks/carrusel";
-import { ProductType, blog, productGrid, products } from "@/mocks/products";
+import { blog, productGrid, products } from "@/mocks/products";
 import CardProduct, { BlogCard, CardGrid } from "@/ui/cardproduct/CardProduct";
 import Carousel from "@/ui/carrusel/Carrusel";
 
@@ -44,8 +44,8 @@ export default function Home() {
             <CardGrid
               image={product.image}
               link={product.link}
-              text={product.text}
-              key={product.text}
+              title={product.title}
+              key={product.title}
             />
           ))}
         </CardProductGrid>

@@ -1,53 +1,4 @@
-export type CardBaseType = {
-  title: string;
-  image: string;
-  postion: "left" | "right";
-  children: React.ReactNode;
-};
-
-export interface Product {
-  image: string;
-  title: string;
-  link: string;
-  oldprice: string;
-  price: string;
-  save: string;
-  code: string;
-  category: string;
-}
-
-export type ProductType = {
-  title: string;
-  image: string;
-  postion: "left" | "right";
-  products: Product[];
-};
-
-export type ProductGrid = {
-  text?: string;
-  image: string;
-  link?: string;
-};
-
-export type ProductGridType = {
-  title: string;
-  product: ProductGrid[];
-  children?: React.ReactNode;
-};
-
-export type CardBlog = {
-  title: string;
-  image: string;
-  link: string;
-  date: string;
-  description: string;
-};
-
-export type CardBlogType = {
-  title: string;
-  product: CardBlog[];
-  children?: React.ReactNode;
-};
+import { CardBlogType, ProductGridType, ProductType } from "@/types/product";
 
 export const products: ProductType[] = [
   {
@@ -227,13 +178,13 @@ export const productGrid: ProductGridType[] = [
       {
         image:
           "https://cdn.shopify.com/oxygen-v2/29651/20627/42665/606537/build/_assets/3mspeedglas_collection_image-WFLJCTKL.avif",
-        text: "Tecmen Welding Helmets",
+        title: "Tecmen Welding Helmets",
         link: "/products/3m-speedglas-heavy-duty-flip-up-welding-helmet-g5-01-with-adflo-papr",
       },
       {
         image:
           "https://cdn.shopify.com/oxygen-v2/29651/20627/42665/606537/build/_assets/3mspeedglas_collection_image-WFLJCTKL.avif",
-        text: "Tecmen Welding Helmets",
+        title: "Tecmen Welding Helmets",
         link: "/products/3m-speedglas-heavy-duty-flip-up-welding-helmet-g5-01-with-adflo-papr",
       },
     ],

@@ -1,7 +1,6 @@
-import { CardBlog, Product, ProductGrid } from "@/mocks/products";
+import { CardBlog, Product, ProductGrid } from "@/types/product";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import { FiShoppingCart } from "react-icons/fi";
 
 export default function CardProduct(item: Product) {
@@ -54,7 +53,7 @@ export const CardGrid = (item: ProductGrid) => {
       />
       {item.link && (
         <Link href={item.link} className='text-red-shop text-center'>
-          i{item.text}
+          {item.title}
         </Link>
       )}
     </div>

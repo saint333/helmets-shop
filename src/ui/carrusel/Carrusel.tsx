@@ -1,10 +1,9 @@
 "use client";
-
-import { type Image as Imagetype } from "@/mocks/carrusel";
+import { ImageCarruselType } from "@/types/carrusel";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 
-const Carousel = ({ images }: { images: Imagetype[] }) => {
+const Carousel = ({ images }: { images: ImageCarruselType[] }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -68,8 +67,8 @@ const Carousel = ({ images }: { images: Imagetype[] }) => {
           <button
             key={index}
             onClick={() => setCurrentIndex(index)}
-            className={`h-2 w-2 rounded-full ${
-              currentIndex === index ? "bg-white" : "bg-gray-500"
+            className={`h-3 w-3 rounded-full ${
+              currentIndex === index ? "bg-gray-300" : "bg-gray-500"
             }`}
           ></button>
         ))}

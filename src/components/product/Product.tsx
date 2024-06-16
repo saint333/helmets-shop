@@ -1,4 +1,4 @@
-import { CardBaseType, CardBlogType, ProductGridType } from "@/mocks/products";
+import { CardBaseType } from "@/types/product";
 import Image from "next/image";
 
 export const CardProductBase = ({

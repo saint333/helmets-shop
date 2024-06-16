@@ -1,4 +1,4 @@
-import { Selfrom } from "@/mocks/selfrom";
+import { Selfrom } from "@/types/selfrom";
 import Raiting from "@/ui/raiting/Raiting";
 import Image from "next/image";
 import React from "react";

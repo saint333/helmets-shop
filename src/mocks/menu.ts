@@ -1,8 +1,4 @@
-export interface MenuItem {
-  name: string;
-  href: string;
-  subMenu?: MenuItem[];
-}
+import { MenuItem } from "@/types/menu";
 
 export const menu: MenuItem[] = [
   {

@@ -1,6 +1,5 @@
-import { raiting } from "@/mocks/selfrom";
+import { raiting } from "@/types/selfrom";
 import Image from "next/image";
-import React from "react";
 
 export default function Raiting({ item }: { item: raiting }) {
   return (

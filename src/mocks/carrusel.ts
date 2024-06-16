@@ -1,11 +1,6 @@
-export type Image = {
-  desktop: string;
-  mobile: string;
-  alt: string;
-  link: string;
-};
+import { ImageCarruselType } from "@/types/carrusel";
 
-export const images = [
+export const images: ImageCarruselType[] = [
   {
     desktop:
       "https://cdn.shopify.com/s/files/1/3009/5686/files/sliderhosecover.png?v=1716243767",

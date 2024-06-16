@@ -1,4 +1,4 @@
-import { type MenuItem } from "@/mocks/menu";
+import { MenuItem } from "@/types/menu";
 import Link from "next/link";
 import React from "react";
 import { IoIosArrowDown } from "react-icons/io";

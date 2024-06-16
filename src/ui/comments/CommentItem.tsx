@@ -1,7 +1,7 @@
-import { comments } from "@/mocks/selfrom";
 import Image from "next/image";
 import React from "react";
 import Raiting from "../raiting/Raiting";
+import { comments } from "@/types/selfrom";
 
 export default function CommentItem(item: comments) {
   return (
