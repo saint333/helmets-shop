@@ -32,7 +32,8 @@ export default function Description({ product }: { product: Selfrom }) {
           alt='promo'
           fill
           sizes="(100vw, 100vh)"
-          loading="lazy"
+          // loading="lazy"
+          priority
           className='object-contain !static !h-auto !w-full'
         />
       </div>

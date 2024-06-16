@@ -40,13 +40,13 @@ export const productDetail: Selfrom = {
                                           <tbody class="body-content who-icons mt-3">
                                              <tr class="contet-all who-info-single-products">
                                                 <td class="icon-who 03 text-center p-6" rel="nofollow" style="padding: 1.5rem">
-                                                      <img style="width: 3rem" src="https://cdn.shopify.com/s/files/1/3009/5686/files/icon-call-who.png" class="icon-img-sp who-product03 w-12 m-auto block " alt="Quotes Bulk Prices">
+                                                      <img style="width: 3rem !important" src="https://cdn.shopify.com/s/files/1/3009/5686/files/icon-call-who.png" class="icon-img-sp who-product03 w-12 m-auto block " alt="Quotes Bulk Prices" width="44" height="44">
                                                 <a class="a-title-icon-producto link" href="/pages/welding-helmet-bulk-buys-contracts-and-tenders"><p class="title-icon-producto --p3 text-sm font-semibold">Quotes/Bulk Prices Available</p></a><a class="asubtitle-icon-producto link" href="/pages/welding-helmet-bulk-buys-contracts-and-tenders"><p class="subtitle-icon-producto --p3 text-xs">(Orders of 3 helmets or more)</p></a></td>
                                                 <td class="line-separador-content">
                                                    <div class="line-separador"> </div>
                                                 </td>
                                                 <td class="icon-who 02 text-center p-6" style="padding: 1.5rem">
-                                                   <img style="width: 3rem" src="https://cdn.shopify.com/s/files/1/3009/5686/files/quote-who.png" class="icon-img-sp who-product02 w-12 block m-auto" alt="Prices Already Include GST">
+                                                   <img style="width: 3rem!important" src="https://cdn.shopify.com/s/files/1/3009/5686/files/quote-who.png" class="icon-img-sp who-product02 w-12 block m-auto" alt="Prices Already Include GST" width="44" height="44">
                                                    <p class="title-icon-producto --p2 text-sm font-semibold">Prices Already Include GST</p>
                                                    <p class="subtitle-icon-producto --p2 text-xs">(No hidden surprises at checkout)</p>
                                                 </td>
@@ -54,7 +54,7 @@ export const productDetail: Selfrom = {
                                                    <div class="line-separador"> </div>
                                                 </td>
                                                 <td class="icon-who 01 text-center p-6" style="padding: 1.5rem">
-                                                   <img style="width: 3rem" src="https://cdn.shopify.com/s/files/1/3009/5686/files/delivery-free-who.png" class="icon-img-sp who-product01 m-auto block " alt="Fast, Safe, Secure Delivery - Welding Helmets">
+                                                   <img style="width: 3rem!important" src="https://cdn.shopify.com/s/files/1/3009/5686/files/delivery-free-who.png" class="icon-img-sp who-product01 m-auto block " alt="Fast, Safe, Secure Delivery - Welding Helmets" width="44" height="44">
                                                    <p class="title-icon-producto --p1 text-sm font-semibold">Fast, Safe, Secure Delivery</p>
                                                    <p class="subtitle-icon-producto --p1 text-xs">(Across Australia)</p>
                                                 </td>
@@ -69,7 +69,7 @@ export const productDetail: Selfrom = {
                                     <p>This helmet is designed for heavy welders and has a range of new features not previously seen - including the ability to choose one of three colour tones for dark state shades, ability to direct airflow to different areas of the helmet, slimmer design easier for confined spaces, additional comfort features in the harness and an optional light for the front of the helmet.</p>
                                     <p>The G501 also comes with a range of new spares making it a very versatile helmet and gives the welder the ability to either reduce the weight/size of the helmet, or increase their protection by adding extra head protection.</p>
                                     <p>This is the standard Speedglas G501 VC without the task light. If you're looking for the Speedglas G501VC with the task light installed, <a href="#" aria-label="Read more about Seminole tax hike">you can find it here</a>.</p>
-                                    <a href="#" aria-label="Read more about Seminole tax hike"><img style="width: 100%; border-radius: 10px; margin-top: 2px !important; margin-bottom: 2px !important;" data-mce-fragment="1" src="https://cdn.shopify.com/s/files/1/3009/5686/files/versus_opti.svg" data-mce-src="https://cdn.shopify.com/s/files/1/3009/5686/files/versus_opti.svg" alt="Welding Helmets Online favourite features"></a>
+                                    <a href="#" aria-label="Read more about Seminole tax hike"><img width="44" height="44" style="width: 100% !important; border-radius: 10px; margin-top: 2px !important; margin-bottom: 2px !important;" data-mce-fragment="1" src="https://cdn.shopify.com/s/files/1/3009/5686/files/versus_opti.svg" data-mce-src="https://cdn.shopify.com/s/files/1/3009/5686/files/versus_opti.svg" alt="Welding Helmets Online favourite features"></a>
                                     <p><strong><span style="color: #991500;">Welding Helmets Online favourite features</span></strong></p>
                                     <p>- The ability to easily remove the lens for when you're grinding (making it lighter).</p>
                                     <p>- The ability to choose where you want the air directed in the helmet (if your eyes dry out when using a PAPR usually, this is an amazing feature).</p>
