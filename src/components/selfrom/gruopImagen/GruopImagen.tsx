@@ -9,7 +9,7 @@ export default function GruopImagen({ list }: { list: string[] }) {
         alt={list[0]}
         fill
         sizes="(100vw, 100vh)"
-        loading="lazy"
+        priority
         className='object-contain !static !w-[85%] !h-auto rounded-lg border border-gray-400 m-auto'
       />
       <div className='flex gap-3 md:w-[15%] items-start relative'>
@@ -20,7 +20,8 @@ export default function GruopImagen({ list }: { list: string[] }) {
             alt={item}
             fill
             sizes="(100vw, 100vh)"
-            loading="lazy"
+            priority={index === 0}
+            {...(index !== 0 ? { loading: "lazy" } : {})}
             className='object-contain !static !w-[60px] !h-auto lg:!w-[150px]  rounded-lg border border-gray-400'
           />
         ))}
